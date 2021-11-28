@@ -735,6 +735,7 @@
     .idc-whyus .idc-container {
         padding-top: 92px;
         padding-bottom: 100px;
+        margin: 0 !important;
     }
     .idc-whyus__wrapper {
         margin: 0 -20px;
