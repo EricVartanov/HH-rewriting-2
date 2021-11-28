@@ -372,6 +372,9 @@ body {
     overflow: hidden;
     cursor: pointer;
     text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .idc-head__info-item::after {

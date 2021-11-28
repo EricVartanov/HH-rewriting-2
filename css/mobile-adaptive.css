@@ -110,6 +110,9 @@
     .idc-analyse__title-block {
         margin-right: auto;
     }
+    .idc-analyse__title-block .idc-subtitle {
+        max-width: 420px;
+    }
     .idc-analyse__list-block {
         max-width: 570px;
     }
@@ -135,8 +138,8 @@
 @media (max-width: 1119.98px) {
     .idc-head__info-item {
         height: 191px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 }
 
