@@ -535,6 +535,9 @@
         flex-shrink: 0;
         margin-left: 15px;
     }
+    .idc-head__info-item:last-child {
+        margin-right: 20px;
+    }
     .idc-head__info-text {
         font-size: 16px;
         line-height: 18px;
@@ -735,6 +738,9 @@
         flex-shrink: 0;
         max-width: 235px;
         padding-top: 10px;
+    }
+    .idc-whyus__item:last-child {
+        margin-right: 20px;
     }
     .idc-whyus .idc-title {
         margin-top: 0;
