@@ -514,7 +514,7 @@
     .idc-head .idc-button__wrapper {
         margin-top: 43px;
     }
-    .idc-head__info {
+    /* .idc-head__info {
         -webkit-box-pack: left;
         -ms-flex-pack: left;
         justify-content: left;
@@ -526,18 +526,33 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
         margin-top: -105px;
+    } */
+    .idc-head__info {
+        margin: 0px;
+        padding: 0 20px;
+        width: calc(100% + 40px);
+        overflow-x: auto;
+        padding-bottom: 10px;
+        display: block !important;
+        white-space: nowrap;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        margin-top: -105px;
     }
     .idc-head__info-item {
+        display: inline-block;
+        white-space: normal;
         min-width: 154px;
         margin-top: 28px;
         margin-right: auto;
         -ms-flex-negative: 0;
-        flex-shrink: 0;
         margin-left: 15px;
+        position: relative;
     }
-    .idc-head__info-item:last-child {
+    /* .idc-head__info-item:last-child {
         margin-right: 20px;
-    }
+    } */
     .idc-head__info-text {
         font-size: 16px;
         line-height: 18px;
@@ -698,10 +713,10 @@
         display: block;
     }
     .idc-instr__vector {
-        left: 57%;
-        -webkit-transform: translateX(-57%);
-        -ms-transform: translateX(-57%);
-        transform: translateX(-57%);
+        left: calc(50% + 7px);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
         top: 0px;
     }
     .idc-instr .idc-container {
@@ -724,7 +739,11 @@
     .idc-whyus__wrapper {
         margin: 0 -20px;
         padding: 0 20px;
+        padding-bottom: 0px;
         width: calc(100% + 40px);
+        padding-bottom: 10px;
+        display: block !important;
+        white-space: nowrap;
         overflow-x: auto;
         overflow: -moz-scrollbars-none;
         -ms-overflow-style: none;
@@ -733,15 +752,22 @@
     .idc-whyus__wrapper::-webkit-scrollbar {
         width: 0 !important;
     }
-    .idc-whyus__item {
+    /* .idc-whyus__item {
         -ms-flex-negative: 0;
         flex-shrink: 0;
         max-width: 235px;
         padding-top: 10px;
+    } */
+    .idc-whyus__item {
+        display: inline-block;
+        white-space: normal;
+        max-width: 235px;
+        padding-top: 10px;
+        position: relative;
     }
-    .idc-whyus__item:last-child {
+    /* .idc-whyus__item:last-child {
         margin-right: 20px;
-    }
+    } */
     .idc-whyus .idc-title {
         margin-top: 0;
         text-align: left;

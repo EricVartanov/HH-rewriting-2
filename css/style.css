@@ -1356,6 +1356,13 @@ body {
     background: #0F8FEE;
 }
 
+.idc-advantage .idc-button:hover {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #007FDA;
+}
+
 
 /* *********************article********************** */
 
