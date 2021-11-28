@@ -388,7 +388,7 @@
         -webkit-box-align: initial;
         -ms-flex-align: initial;
         align-items: initial;
-        max-height: 239px;
+        /* max-height: 239px; */
     }
     .idc-whyus__item .idc-mini-title {
         font-size: 15px;

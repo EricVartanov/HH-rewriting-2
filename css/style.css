@@ -1232,11 +1232,12 @@ body {
     text-align: center;
 }
 
-.idc-whyus__wrapper.idc-flex {
+
+/* .idc-whyus__wrapper.idc-flex {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-}
+} */
 
 .idc-whyus__item {
     margin-left: 30px;
